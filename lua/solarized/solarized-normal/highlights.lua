@@ -507,9 +507,9 @@ function M.load_syntax(colors)
 	syntax['DiagnosticUnderlineInfo'] = {fg=colors.none,guisp=colors.cyan,style='underline'}
 	syntax['DiagnosticUnderlineHint'] = {fg=colors.none,guisp=colors.green,style='underline'}
 
-	syntax['LspReferenceRead'] = {fg=colors.none,style='underline'}
+	syntax['LspReferenceRead'] = {fg=colors.base03,bg=colors.base01,style='none'}
 	syntax['LspReferenceText'] = syntax['LspReferenceRead']
-	syntax['LspReferenceWrite'] = {fg=colors.none,style='underline,bold'}
+	syntax['LspReferenceWrite'] = {fg=colors.base03,bg=colors.base01,style='bold'}
 
 	-- Lspsaga
 	syntax['LspSagaFinderSelection'] = syntax['Search']
