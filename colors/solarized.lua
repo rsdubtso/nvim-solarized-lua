@@ -30,7 +30,7 @@ local lightColors = {
 	blue    = {'#268bd2',38},
 	magenta = {'#d33682',169},
 	cyan    = {'#2aa198',37},
-	base02  = {'#f9c8c8',230},
+	base02  = {'#eee8d5',230},
 	base3   = {'#002b36',23},
 	orange  = {'#cb4b16',166},
 	base1   = {'#586e75',102},
@@ -38,9 +38,9 @@ local lightColors = {
 	base00  = {'#839496',145},
 	violet  = {'#6c71c4',104},
 	base01  = {'#93a1a1',145},
-	base03  = {'#fde3e3',231},
-	back    = {'#fde3e3',231},
-	err_bg  = {'#fde3e3',231}
+	base03  = {'#fdf6e3',231},
+	back    = {'#fdf6e3',231},
+	err_bg  = {'#fdf6e3',231}
 }
 
 if vim.o.bg == 'light' then
